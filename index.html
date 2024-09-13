@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Madison's Baking Blog, your go-to place for delightful recipes, tips, and tricks for all your baking needs.">
+    <meta name="keywords" content="baking, recipes, cakes, cookies, tips, tricks, baked goods, Madison's Baking Blog">
+    <title>Madison's Baking Blog</title>
+    <link rel="stylesheet" href="final_project.css">
+    <style>
+        .styled-hr {
+            color: #f39c12;
+            height: 2px;
+            border: none;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .featured-recipes figure {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .featured-recipes img {
+            width: 300px;
+            height: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        .featured-recipes img:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Madison's Baking Blog</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="tips.html">Tips & Tricks</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <section>
+                <h2>Featured Recipes</h2>
+                <h3>Explore Some of My Favorite Creations:</h3>
+                <article class="featured-recipes">
+                    <figure>
+                        <a href="https://www.hercampus.com/school/yale/elevated-caramel-carrot-cupcakes/">
+                            <img src="assets/elevated-caramel-carrot-cupcakes.png" alt="Elevated Caramel Carrot Cupcakes">
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.hercampus.com/school/yale/the-best-of-both-worlds-apple-crisp-pie/">
+                            <img src="assets/apple-crisp-pie.png" alt="The Best of Both Worlds: Apple Crisp Pie">
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.hercampus.com/school/yale/whipped-to-perfection-indulgent-caramel-cream-cheese-frosting/">
+                            <img src="assets/caramel-cream-cheese-frosting.png" alt="Whipped to Perfection: Indulgent Caramel Cream Cheese Frosting">
+                        </a>
+                    </figure>
+                </article>
+            </section>
+
+            <section>
+                <h2>Recent Posts</h2>
+                <h3>Check Out These Latest Articles:</h3>
+                <article>
+                    <ul class="list">
+                        <li>Chocolate Chip Cookies - A Classic Recipe</li>
+                        <li>How to Perfect Your Pie Crust</li>
+                        <li>The Best Bread for Beginners</li>
+                        <li>Baking Essentials: Tools You Need</li>
+                        <li>Gluten-Free Baking: Tips and Tricks</li>
+                        <li>Seasonal Baking: Fall Favorites</li>
+                    </ul>
+                </article>
+            </section>
+
+            <section>
+                <h2>Popular Baking Categories</h2>
+                <h3>Categories You’ll Love to Explore:</h3>
+                <article>
+                    <ul class="list">
+                        <li><a href="recipes.html#cakes">Cakes</a>
+                            <ul>
+                                <li>Milk Cake</li>
+                                <li>Apple Cake</li>
+                                <li>Brownie Caramel Cake</li>
+                            </ul>
+                        </li>
+                        <li><a href="gallery.html#cookies">Cookies</a>
+                            <ul>
+                                <li>Chocolate Chip</li>
+                                <li>S'mores</li>
+                                <li>Maple Pecan</li>
+                            </ul>
+                        </li>
+                        <li><a href="gallery.html#breads">Breads</a>
+                            <ul>
+                                <li>Cheesy Bread Rolls</li>
+                                <li>Sourdough</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+        </article>
+    </main>
+
+    <hr class="styled-hr">
+
+    <article style="text-align: center; margin: 2em 0;">
+        <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" 
+                style="padding: 10px 20px; background-color: #800080; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Go to Top
+        </button>
+    </article>
+
+    <footer>
+        <p>&copy; 2024 Madison's Baking Blog. All rights reserved.</p>
+        <section class="social-media-icons">
+            <ul>
+                <li><a href="https://www.instagram.com/preppykitchen/?hl=en" target="_blank"><img class="icon" src="assets/instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </section>
+    </footer>
+
+</body>
+</html>

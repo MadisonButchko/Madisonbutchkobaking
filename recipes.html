@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Recipes - Madison's Baking Blog">
+    <meta name="keywords" content="baking, recipes, cakes, cookies, bread">
+    <title>Recipes | Madison's Baking Blog</title>
+    <link rel="stylesheet" href="final_project.css">
+    <style>
+        body {
+            background-color: #D1C4E9; /* Pastel Purple Background */
+            color: #4E342E; /* Deep Brown Text */
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 0 20px 20px 20px;
+        }
+
+        .table-bordered {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        .table-bordered th, .table-bordered td {
+            border: 2px solid #8D6E63; /* Warm Brown Border */
+            padding: 10px;
+            text-align: left;
+        }
+
+        .table-bordered th {
+            background-color: #F8BBD0; /* Pastel Pink Header */
+            color: #4E342E;
+            font-size: 1.2em;
+        }
+
+        .table-borderless {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        .table-borderless th, .table-borderless td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        .table-borderless th {
+            background-color: #E1BEE7; /* Light Purple Header */
+            color: #4E342E;
+            font-size: 1.2em;
+        }
+
+        nav {
+            background-color: #8D6E63; /* Warm Brown Navigation Bar */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #F8BBD0; /* Pastel Pink Links */
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #FFF8E1; /* Cream Hover Effect */
+        }
+
+        nav ul li a.active {
+            border-bottom: 2px solid #FFF8E1; /* Indicates active page */
+        }
+	.right {
+	float: right;
+	width: 350px;
+	height: 350px;
+	padding-right: 200px;
+	padding-bottom: 100px;
+	}
+	.left {
+	float: left;
+	}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Delicious Baking Recipes</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="tips.html">Tips & Tricks</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contactpage.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Welcome to My Recipe Collection</h2>
+    <p>Here you’ll find a delightful assortment of baking recipes, each crafted to make any occasion sweeter and more memorable. Whether you’re celebrating a special milestone or
+         just indulging in a little self-care with a delicious treat, these recipes are designed to bring joy and satisfaction to your kitchen. Baking is a wonderful dance of 
+         art and science, and with my recipes, you'll be twirling through the kitchen with confidence. Each recipe is like a roadmap, guiding you step by step through the
+         baking process, ensuring that even if you’re new to baking, you’ll end up with delectable results that will make you proud. From decadent cakes to irresistibl
+         e cookies and fluffy breads, I’ve poured my love for baking into every recipe. I’m a firm believer that the science behind baking adds an extra layer of magic to the process.
+         I love diving into the details—like how yeast makes bread rise or why certain ingredients react the way they do—because understanding these nuances helps
+          me perfect each recipe and share that knowledge with you. Imagine the thrill of pulling a perfectly golden loaf of bread from the oven or the satisfaction
+           of slicing into a rich, moist cake that you made from scratch. Each recipe here is not just about following instructions; it’s about enjoying the journey of creating something truly delightful.
+        Whether you’re baking for a holiday feast, a casual gathering with friends, or just to brighten your day, you’ll find recipes that are as enjoyable to make as they
+         are to eat. So, roll up your sleeves, preheat your oven, and get ready to experience the joy of baking. With these recipes, you’ll not only master
+          the techniques but also have a lot of fun along the way. Let’s make some sweet memories together, one delicious bite at a time! </p>
+
+	<br> 
+    <h3>Featured Recipes</h3>
+    <!-- Table with Borders -->
+    <table class="table-bordered">
+        <caption>Popular Baking Recipes</caption>
+        <thead>
+            <tr>
+                <th colspan="3">Recipe Details</th>
+            </tr>
+            <tr>
+                <th>Recipe Name</th>
+                <th>Preparation Time</th>
+                <th>Difficulty Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chocolate Chip Cookies</td>
+                <td>30 minutes</td>
+                <td>Easy</td>
+            </tr>
+            <tr>
+                <td >Classic Apple Pie</td>
+                <td>45 minutes</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td>Banana Bread</td>
+                <td>1 hour</td>
+                <td>Easy</td>
+            </tr>
+        </tbody>
+    </table>
+
+	<br> 
+
+    <h3>Baking Ingredient Substitutes</h3>
+    <!-- Borderless Table -->
+    <table class="table-borderless">
+        <caption>Baking Ingredient Substitutes</caption>
+        <thead>
+            <tr>
+                <th>Ingredient</th>
+                <th>Substitute</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Butter</td>
+                <td>1/2 cup coconut oil</td>
+                <td>Best for cakes and cookies.</td>
+            </tr>
+            <tr>
+                <td>Sugar</td>
+                <td >1 cup honey</td>
+                <td>Use slightly less liquid in the recipe.</td>
+            </tr>
+            <tr>
+                <td>Flour</td>
+                <td>1 cup almond flour</td>
+                <td>Good for gluten-free recipes.</td>
+            </tr>
+        </tbody>
+    </table>
+
+<br> 
+
+  <section>
+        <h2>Example: My Basic Cake Recipe</h2>
+        <p>Follow these steps to bake a simple yet delicious cake:</p>
+        <ol class="left">
+            <li>Preheat the oven to 350°F (175°C).</li>
+            <li>Prepare the cake batter:
+                <ol>
+                    <li>In a large bowl, mix the dry ingredients: flour, sugar, baking powder, and salt.</li>
+                    <li>In a separate bowl, combine the wet ingredients: eggs, milk, and vanilla extract.</li>
+                    <li>Slowly add the wet ingredients to the dry ingredients, mixing until smooth.</li>
+                    <li>Finally, fold in the melted butter or oil.</li>
+                </ol>
+            </li>
+            <li>Grease and flour your cake pans.</li>
+            <li>Pour the batter into the prepared pans.</li>
+            <li>Bake for 25-30 minutes, or until a toothpick inserted into the center comes out clean.</li>
+            <li>Let the cakes cool in the pans for 10 minutes, then transfer to a wire rack to cool completely.</li>
+            <li>Frost and decorate as desired.</li>
+        </ol>
+<img class="right" src= "assets/cakecartoon.JPG" alt="cake cartoon">
+    </section>
+<hr class="styled-hr">
+<!-- Button/Banner -->
+<a href="imageunorderedlist.html" class="favorite-things-button">Check Out My Favorite Things to Bake</a>
+
+<style>
+.favorite-things-button {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F8BBD0; 
+    color: #4E342E; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.favorite-things-button:hover {
+    background-color: #B39DDB; 
+}
+</style>
+
+<article style="text-align: center; margin: 2em 0;">
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" 
+            style="padding: 10px 20px; background-color: #800080; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Go to Top
+    </button>
+</article>
+
+    <footer>
+        <p>&copy; 2024 Madison's Baking Blog. All rights reserved.</p>
+        <section class="social-media-icons">
+            <ul>
+                <li><a href="https://www.instagram.com/preppykitchen/?hl=en" target="_blank"><img class="icon" src="assets/instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </section>
+    </footer>
+
+</body>
+</html>

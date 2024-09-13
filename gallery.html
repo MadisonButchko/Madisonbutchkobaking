@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery - Madison's Baking Blog">
+    <meta name="keywords" content="gallery, baking, cakes, desserts, photos">
+    <title>Gallery | Madison's Baking Blog</title>
+    <link rel="stylesheet" href="final_project.css">
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .gallery img {
+            max-width: 500px;
+            margin: 15px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gallery</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="tips.html">Tips & Tricks</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Welcome to My Baking Gallery</h2>
+                <h3>Explore some of the delicious creations I've baked. Click on the images for more details. Check out my image map on the Apple Cake pictured below.</h3>
+
+            <section class="gallery">
+                <!-- Image with image map -->
+                <img src="assets/F241CB90-7AFB-467A-A106-382D6AA6479E.JPG" alt="Cake Image" hspace="10" border="0" usemap="#cakemap" style="width:100%;">
+
+                <!-- Additional gallery images -->
+                <!-- Add more images in this format -->
+                <!-- <img src="path/to/your/image2.jpg" alt="Description"> -->
+                <!-- <img src="path/to/your/image3.jpg" alt="Description"> -->
+            </section>
+
+            <!-- Map tag with a name attribute -->
+            <map name="cakemap">
+                <!-- Rectangular area linking to the Home page -->
+                <area shape="rect" coords="50,50,200,200" href="index.html" alt="Home Page">
+
+                <!-- Rectangular area linking to the Recipes page -->
+                <area shape="rect" coords="250,50,400,200" href="recipes.html" alt="Recipes Page">
+
+                <!-- Rectangular area linking to the Tips & Tricks page -->
+                <area shape="rect" coords="50,250,200,400" href="tips.html" alt="Tips & Tricks Page">
+
+                <!-- Rectangular area linking to the Contact page -->
+                <area shape="rect" coords="250,250,400,400" href="contactpage.html" alt="Contact Page">
+            </map>
+
+
+            <section class="gallery">
+                <!-- Image Map Section -->
+                <img src="assets/suacake.JPG" alt="Cake Image" hspace="10" border="0" usemap="#cakemap" style="width:100%;">
+
+                <map name="cakemap">
+                    <!-- Rectangular area linking to the Home page -->
+                    <area shape="rect" coords="50,50,200,200" href="index.html" alt="Home Page">
+
+                    <!-- Rectangular area linking to the Recipes page -->
+                    <area shape="rect" coords="250,50,400,200" href="recipes.html" alt="Recipes Page">
+
+                    <!-- Rectangular area linking to the Tips & Tricks page -->
+                    <area shape="rect" coords="50,250,200,400" href="tips.html" alt="Tips & Tricks Page">
+
+                    <!-- Rectangular area linking to the Contact page -->
+                    <area shape="rect" coords="250,250,400,400" href="contactpage.html" alt="Contact Page">
+                </map>
+
+                <!-- Gallery Images -->
+                <a href="recipes.html">
+                    <img src="assets/holdingcupcake.png" alt="Cupcake in hand">
+                </a>
+
+                <a href="tips.html">
+                    <img src="assets/cookie.png" alt="Fresh baked cookies">
+                </a>
+
+                <a href="index.html">
+                    <img src="assets/multiplecupcake.png" alt="Multiple cupcakes">
+                </a>
+
+                <a href="about.html">
+                    <img src="assets/caramelcupcake.png" alt="Cupcake with caramel frosting">
+                </a>
+
+                <a href="gallery.html">
+                    <img src="assets/caramelmultiple.png" alt="Multiple cupcakes with caramel frosting">
+                </a>
+
+                <a href="contactpage.html">
+                    <img src="assets/breadroll.png" alt="Bread rolls">
+                </a>
+
+                <a href="recipes.html">
+                    <img src="assets/breadstacked.png" alt="Stacked bread rolls">
+                </a>
+
+                <a href="tips.html">
+                    <img src="assets/caramel-cream-cheese-frosting.png" alt="Cupcake with caramel cream cheese frosting">
+                </a>
+
+                <a href="index.html">
+                    <img src="assets/elevated-caramel-carrot-cupcakes.png" alt="Elevated caramel carrot cupcakes">
+                </a>
+
+                <a href="about.html">
+                    <img src="assets/applecupcake.JPG" alt="Apple cupcake">
+                </a>
+
+                <a href="gallery.html">
+                    <img src="assets/coconutcupcake.JPG" alt="Coconut cupcake">
+                </a>
+
+                <a href="contactpage.html">
+                    <img src="assets/multiplesideviewcupcake.JPG" alt="Side view of multiple cupcakes">
+                </a>
+
+                <!-- New Images -->
+                <a href="recipes.html">
+                    <img src="assets/chocolatecake.JPG" alt="Chocolate Cake">
+                </a>
+
+                <a href="tips.html">
+                    <img src="assets/pumpkinbread.JPG" alt="Pumpkin Bread">
+                </a>
+            </section>
+
+            <!-- Go to top button -->
+            <p style="text-align: center; margin: 2em 0;">
+                <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" 
+                        style="padding: 10px 20px; background-color: #800080; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                    Go to Top
+                </button>
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Madison's Baking Blog. All rights reserved.</p>
+        <section class="social-media-icons">
+            <ul>
+                <li><a href="https://www.instagram.com/preppykitchen/?hl=en" target="_blank"><img class="icon" src="assets/instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </section>
+    </footer>
+
+</body>
+</html>

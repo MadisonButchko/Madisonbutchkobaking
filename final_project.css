@@ -1,0 +1,147 @@
+body {
+    background-color: #D1C4E9; /* Pastel Purple Background */
+    color: #4E342E; /* Deep Brown Text */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #F8BBD0, #FFF8E1); /* Gradient from Pastel Pink to Cream */
+    padding: 20px;
+    color: #4E342E; /* Deep Brown Text */
+	text-align: center;
+	height: 100px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+	font-size: 50px;
+    margin: 0;
+}
+h2 {
+	text-align: left;
+	margin: 30px;
+}
+h3 {
+            padding-left: 20px; /* Adjust the padding to move h3 a bit to the right */
+        }
+nav {
+    background-color: #8D6E63; /* Warm Brown Navigation Bar */
+    padding-top: 10px;
+    padding-bottom: 10px;
+	text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #F8BBD0; /* Pastel Pink Links */
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #FFF8E1; /* Cream Hover Effect */
+}
+
+nav ul li a.active {
+}
+
+.featured-recipes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.featured-recipes img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.featured-recipes img:hover {
+    transform: scale(1.1);
+}
+li {
+	font-size: 20px;
+}
+.list {
+    margin: 20px auto;
+    padding: 0;
+    width: 80%;
+    text-align: left;
+    list-style-position: inside;
+}
+ caption {
+	caption-side: bottom; 
+	padding-top: 20px;
+	font-style: italic;
+}
+hr.styled-hr {
+    border: 0;
+    height: 2px;
+    background: #8D6E63; /* Warm Brown */
+    width: 80%;
+    margin: 30px auto;
+}
+	.icon {
+	width: 60px;
+	height: 60px;
+	}
+ .social-media-icons ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .social-media-icons ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+/* Applying columns and text justification to paragraphs */
+p {
+    columns: 2; /* Create two columns */
+    column-gap: 30px; /* Space between the columns */
+    column-rule: 1px solid #ccc; /* Line between columns */
+    text-align: justify; /* Justify text alignment */
+    margin: 20px 0;
+    padding: 0 20px;
+}
+/* Styling for the centered images */
+.centered-img {
+    display: block;
+    margin: 20px auto;
+    width: 250px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+    /* Responsive layout */
+@media screen and (max-width: 600px) {
+	#headercake {
+         background-image: none;
+     }
+	body {
+		background-color: #8D6E63;
+	}
+}
+
+footer {
+    background: linear-gradient(to right, #FFF8E1, #F8BBD0); /* Gradient
+	justify-content: center;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Me - Madison's Baking Blog">
+    <meta name="keywords" content="baking, about me, blog, recipes">
+    <title>About Me | Madison's Baking Blog</title>
+    <link rel="stylesheet" href="final_project.css">
+    <style>
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column.main-content {
+            flex: 3;
+            padding: 1em;
+            order: 1; 
+        }
+
+        .column.image-content {
+            flex: 1;
+            text-align: center;
+            padding: 1em;
+            order: 2;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 1.5em;
+            margin-top: 2em;
+        }
+
+        p {
+            columns: 2;
+            column-gap: 1.5em; 
+            text-align: justify;
+        }
+
+        .links {
+            margin-top: 2em;
+            text-align: left;
+            font-size: 1.1em;
+        }
+
+        .links a {
+            color: #0000EE; 
+            text-decoration: underline;
+        }
+
+        .links a:hover {
+            color: #551A8B; 
+            text-decoration: none;
+        }
+
+        @media screen and (max-width: 600px) {
+            .row { flex-direction: column; }
+            p { columns: 1; }
+            .column.image-content { order: 2; }
+            .column.main-content { order: 3; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="tips.html">Tips & Tricks</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="row">
+        <article class="column main-content">
+            <h2>Hello, I'm Maddie!</h2>
+            <p>
+                I’m a rising senior at Yale, and I’m captivated by the art of baking. To me, baking is like a magical transformation where ordinary ingredients—flour, sugar, butter, and eggs—come together to create something extraordinary. It’s a blend of science and creativity that never fails to amaze me.
+                Baking isn’t just a pastime; it’s a profound way for me to express myself and connect with others. When I’m in the kitchen, I’m not just following a recipe; I’m crafting a little piece of joy. I love the thrill of seeing a cake rise in the oven or a batch of cookies turn golden brown. Each creation is a testament to the magic of mixing simple ingredients into something delightful.
+   
+                Through my writing for our campus publication, I share my passion for baking with a wider audience, hoping to inspire others to experience the same joy I find in this craft. I enjoy the process of recipe development, experimenting with flavors, and understanding how each ingredient contributes to the final product. Baking is like a science experiment where the outcome is a delicious treat!
+ 
+                But it’s not just about the technical side for me. I find immense joy in sharing my baked goods with friends, family, and my church community. Baking allows me to spread happiness and connect with others through the simple act of sharing food. There’s something incredibly rewarding about seeing a smile on someone’s face when they enjoy a treat I’ve made.
+                Whether I’m hosting a baking party with friends or whipping up something special for a community event, my goal is always to bring a little extra joy into people’s lives. I believe that the way to someone's heart is often through their stomach, and I take great pleasure in making people feel special through my baking.
+            </p>
+
+            <h3>Stay Connected</h3>
+            So, if you’re ever in the mood for some homemade goodness or just want to chat about the wonders of baking, you’ll find me in the kitchen, ready to create and share the next batch of sweet memories!
+           
+
+            <!-- Links to other articles -->
+            <div class="links">
+                <h3>Read More of My Work</h3>
+       Read more of my "Her Campus" baking articles here: 
+                    <a href="https://www.hercampus.com/author/maddie-butchko/" target="_blank">Her Campus Baking Articles</a>
+
+                <h3>Highlighted Articles:</h3>
+                <ul>
+                    <li><a href="https://www.hercampus.com/school/yale/biscoff-pecan-crumble/" target="_blank">Biscoff Pecan Crumble</a></li>
+                    <li><a href="https://www.hercampus.com/school/yale/the-best-baking-save-why-room-temperature-matters/" target="_blank">The Best Baking Save: Why Room Temperature Matters</a></li>
+                    <li><a href="https://www.hercampus.com/school/yale/essential-ingredients-and-tools-for-baking-the-perfect-cookies/" target="_blank">Essential Ingredients and Tools for Baking the Perfect Cookies</a></li>
+                </ul>
+            </div>
+        </article>
+
+        <aside class="column image-content">
+            <img src="assets/maddiebaking.png" alt="Maddie baking">
+        </aside>
+    </main>
+<article style="text-align: center; margin: 2em 0;">
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" 
+            style="padding: 10px 20px; background-color: #800080; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Go to Top
+    </button>
+</article>
+    <footer>
+        <p>&copy; 2024 Madison's Baking Blog. All rights reserved.</p>
+        <section class="social-media-icons">
+            <ul>
+                <li><a href="https://www.instagram.com/preppykitchen/?hl=en" target="_blank"><img class="icon" src="assets/instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </section>
+    </footer>
+
+</body>
+</html>
